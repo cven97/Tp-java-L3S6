@@ -1,0 +1,4 @@
+Oui la classe Dessin peut contenir des Rectangles inclinés.
+
+les methodes surface, contains et hull de la classe Dessin 
+ne fonctionnent pas encore correctement a cause des castings.

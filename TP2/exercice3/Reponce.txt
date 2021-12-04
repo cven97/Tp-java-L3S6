@@ -1,0 +1,1 @@
+La classe StantedRectangle hérite de toute les méthodes de la classe Rectangle.
