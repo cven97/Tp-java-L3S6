@@ -1,0 +1,23 @@
+surcharge et on a :
+
+A a = new A();
+A ab = new B();
+B b = new B();
+
+a.f(a) : void f(A o) dans A
+
+a.f(ab) : void f(A o) dans A
+
+a.f(b) : void f(B o) dans A
+
+ab.f(a) : void f(A o) dans A
+
+ab.f(ab) : void f(A o) dans A
+
+ab.f(b) : : void f(B o) dans A
+
+b.f(a): void f(A o) dans B
+
+b.f(ab) : void f(A o) dans B
+
+b.f(b) : void f(B o) dans B

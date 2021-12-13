@@ -1,0 +1,3 @@
+La methode toString() est une redefinition dans la classe Rectangle
+
+non il n'est pas nécessaire de redefinir la methode dans la classe StandedRectangle

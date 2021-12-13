@@ -1,0 +1,23 @@
+En ajoutant la methode f(B o) à la classe B alors on surcharge la methode f et on a :
+
+A a = new A();
+A ab = new B();
+B b = new B();
+
+a.f(a) : void f(A o) dans A
+
+a.f(ab) : void f(A o) dans A
+
+a.f(b) : la method f(B) dans le type SlantedRectangle n'est pas applicable pour l'argument B
+
+ab.f(a) : void f(A o) dans A
+
+ab.f(ab) : void f(A o) dans A
+
+ab.f(b) : : la method f(B) dans le type SlantedRectangle n'est pas applicable pour l'argument B
+
+b.f(a): void f(A o) dans B
+
+b.f(ab) : void f(A o) dans B
+
+b.f(b) : void f(B o) dans B

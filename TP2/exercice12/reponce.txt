@@ -1,0 +1,10 @@
+A a = new A();
+A ab = new B();
+B b = new B();
+
+System.out.println(a instanceof A);  // vrai
+System.out.println(ab instanceof A); // vrai
+System.out.println(b instanceof A); // faux
+System.out.println(a instanceof B); // faux
+System.out.println(ab instanceof B); // faux
+System.out.println(b instanceof B); // vrai
